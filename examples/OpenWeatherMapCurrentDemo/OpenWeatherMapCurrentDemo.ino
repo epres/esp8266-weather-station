@@ -33,7 +33,7 @@ SOFTWARE.
 OpenWeatherMapCurrent client;
 
 // See https://docs.thingpulse.com/how-tos/openweathermap-key/
-String OPEN_WEATHER_MAP_APP_ID = "XXX";
+String OPEN_WEATHER_MAP_APP_ID = "2d949224125a6e1cfca90a7fd4fb7f68";
 /*
 Go to https://openweathermap.org/find?q= and search for a location. Go through the
 result set and select the entry closest to the actual location you want to display 
@@ -57,8 +57,8 @@ boolean IS_METRIC = true;
  * WiFi Settings
  */
 const char* ESP_HOST_NAME = "esp-" + ESP.getFlashChipId();
-const char* WIFI_SSID     = "yourssid";
-const char* WIFI_PASSWORD = "yourpassw0rd";
+const char* WIFI_SSID     = "enyim";
+const char* WIFI_PASSWORD = "1941000000";
 
 // initiate the WifiClient
 WiFiClient wifiClient;
